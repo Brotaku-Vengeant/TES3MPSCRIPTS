@@ -1,7 +1,13 @@
 --[[
-    safeZones.lua - TES3MP 0.8.1
-    Safe zone management module.
+
+-- ========================================
+-- SAFE ZONE MANAGEMENT SYSTEM FOR TES3MP V 0.8.1
+-- Safe Zone management module for the Zone System.
+-- Brotaku Vengeant 2/21/2026 Ver 1.
+-- ========================================
+    
     Depends on: zoneCore.lua
+
 --]]
 
 if not ZoneCore then
@@ -380,5 +386,6 @@ ZoneCore.RegisterEventHandler("GetSafeZoneDropFlags", function(pid)
 end)
 
 ZoneCore.LogInfo("SafeZones module loaded.")
+
 
 return SafeZones
