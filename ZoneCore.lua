@@ -1,7 +1,14 @@
 --[[
-    zoneCore.lua - TES3MP 0.8.1
-    Core utilities and shared functionality for the zone system.
-    This module MUST be loaded first before any other zone modules.
+
+-- ========================================
+-- ZONE Core Utilites FOR TES3MP V 0.8.1
+-- Core utilities and shared functionality for the Zone System.
+-- Brotaku Vengeant 2/21/2026 Ver 1.
+-- ========================================
+
+   This module MUST be loaded first before any other zone modules!
+
+
 --]]
 
 local json = require("dkjson")
@@ -200,5 +207,6 @@ end
 ----------------------------------------------
 
 ZoneCore.LogInfo("ZoneCore loaded successfully.")
+
 
 return ZoneCore
