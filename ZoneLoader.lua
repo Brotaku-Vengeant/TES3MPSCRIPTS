@@ -1,7 +1,10 @@
-lua
 --[[
-    zoneSystemLoader.lua - TES3MP 0.8.1
-    Main loader for the modular zone system.
+
+-- ========================================
+-- ZONE SYSTEM LOADER FOR TES3MP V 0.8.1
+-- Main Loader Module for Zone Systems.
+-- Brotaku Vengeant 2/21/2026 Ver 1.
+-- ========================================
     
     INSTALLATION:
     1. Place all zone system files in server/scripts/custom/zones/
@@ -16,6 +19,7 @@ lua
     - jailSystem.lua
     - deathDrop.lua
 --]]
+
 
 local modulePath = "custom.zones."
 
@@ -66,5 +70,6 @@ _G.RefreshCaptureZones = function()
         tes3mp.LogMessage(1, "[ZoneSystem] Capture zones refreshed.")
     end
 end
+
 
 return true
