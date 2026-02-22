@@ -1,8 +1,15 @@
 --[[
-    jailSystem.lua - TES3MP 0.8.1
-    Jail system for players who kill others in safe zones.
+
+-- ========================================
+-- JAIL SYSTEM TES3MP V 0.8.1
+-- Sone System module for managing player penalties for killing players in a safe zone.
+-- Brotaku Vengeant 2/21/2026 Ver 1.
+-- ========================================
+
     Depends on: zoneCore.lua, safeZones.lua
+
 --]]
+
 
 if not ZoneCore then
     tes3mp.LogMessage(2, "[JailSystem] ERROR: ZoneCore must be loaded first!")
@@ -260,5 +267,6 @@ ZoneCore.RegisterEventHandler("IsPlayerJailed", function(pid)
 end)
 
 ZoneCore.LogInfo("JailSystem module loaded.")
+
 
 return JailSystem
